@@ -1,0 +1,19 @@
+{
+  "content_scripts": [
+    {
+      "js": [
+        "borderify.js"
+      ],
+      "matches": [
+        "*://*.mozilla.org/*"
+      ]
+    }
+  ],
+  "description": "Adds a red border to all webpages matching mozilla.org.",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  "manifest_version": 2,
+  "name": "TrendMicroExt",
+  "version": "0.1"
+}
